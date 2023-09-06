@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <form action="mailto:rikawesome009@gmail.com" method="post" enctype="multipart/form-data" name="emailform">
+        <title>Registration form</title>
+        <link rel="stylesheet" href="we.css">
+    </head>
+    <body>
+        <h1>Registration form</h1>
+        <form>
+            <fieldset>
+                <legend>PERSONAL INFO</legend>
+            <label for="first name"><b>Name:</b></label> <br>
+           <input type="text"name = "first name"
+           id="first name"placeholder="e.g john"
+           autocomplete="on"required
+           autofocus>
+           <br> 
+         <label for="EMAIL"><b>EMAIL ADDRESS::</b></label><br>
+        <input type="text"email = "EMAIL" 
+         id = "EMAIL"placeholder="example@gmail.com"
+         autocomplete="on"required>
+         <br>
+         <label for="gender"><b>GENDER:</b> <br>
+        <input type="checkbox" gender  = "gender" multiple size="1"
+        id= placeholder="male"
+        autocomplete="on">male
+        <input type="checkbox"gender = "gender"
+        id= placeholder="female"
+        autocomplete="on">female <br>
+        <label for="password"><b>PASSWORD:</b></label><br>
+        <input type="password"password = "password" 
+         id = "password"placeholder="ultimate123"
+         required> <br>
+        <label for="phone number"><b>PHONE NUMBER:</b></label><br>
+        <input type="tel"phone number = "phone number" 
+         id = "phone number"
+         placeholder="09037488585"
+         pattern="[0-9]{3}{3}{3}{2}"
+         required>
+         <p>
+            <label for="software">Software issue is addressed at:</label>
+            <select name="software" id="software"multiple size="3">
+        
+                <optgroup label="Apps">
+                <option value="apps">EC help</option>
+                <option value="apps">vidauth</option>
+            </optgroup>
+            <optgroup label="games">
+            <option value="games">Universe 1</option>
+            <option value="games">Universe 2</option>
+        </optgroup>
+        <option value="none">None</option>
+        </select>
+    </p>
+    </fieldset>
+    <fieldset>
+        <legend>What kind of game would u like RIot studios to create</legend>
+    <p>
+        <input type="radio"name="adventure" id="adventure" value="adventure">
+    <label for="adventure">Adventure</label> <br>
+    <input type="radio"name="Simulation" id="Simulation" value="Simulation">
+    <label for="Simulation">Simulation</label> <br>
+    <input type="radio"name="strategy" id="strategy" value="strategy">
+    <label for="strategy">strategy</label>
+    </p>
+    </fieldset>
+        <button type="submit" value="submit"> SUBMIT</button>
+    </form>

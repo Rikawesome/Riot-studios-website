@@ -1,0 +1,16 @@
+body{
+    background: yellow;
+}
+.ans{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

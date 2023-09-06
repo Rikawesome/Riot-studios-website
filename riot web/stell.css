@@ -1,0 +1,78 @@
+body{
+    color: blue;
+   font-family: orbitron;
+ background: black;
+    margin: 0 ;
+    text-align: center;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ok{
+    padding: 6px 12px;
+    background: white;
+    border: none;
+}
+.hero{
+    background-image: url("riot logo.jpg")  ;
+    background-size: cover;
+    padding: 20px;
+    
+}
+.we{
+    letter-spacing: 4px;
+    font-size: 80px;
+    text-shadow: 5px -5px 3px black;
+    color: blue;
+}
+.ad{
+    background: blue;
+    border: solid red;
+    color: red;
+}
+.obi{
+    border-bottom: 2px solid red;
+}
+.iy{
+    background: yellow;
+    border: 1px solid orange;
+    padding: 5px 10px;
+}
+.et{
+    color: blueviolet;
+    text-align: center;
+    text-shadow: 5px -2px 2px black;
+}
+.ifi{
+    /*background:linear-gradient(blue, yellow) ;*/
+    color: aqua;
+    text-shadow:0px 0px 3px black ;
+}
+.ry{
+    background: green;
+    color: red;
+    border: 2px solid plum;
+}
+.uy{
+    width: 400px;
+}
+.rap{
+    border: 4px solid white;
+    background-color: blue;
+    width: 2500px;
+}
+#tap{
+    color: red;
+}
+#what{
+    font-size: 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    color: red;
+    font-size: 20px;
+}
+a{
+    color: red;
+}

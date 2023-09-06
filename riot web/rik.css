@@ -1,0 +1,57 @@
+body{
+    background-image: url(media-998990_1280.jpg);
+    background-size: 90% ;
+}
+header{
+    font-size: 50px;
+    font-weight: 800;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+.the{
+    display: flex;
+    flex-direction: row;
+    
+    
+    margin: 10px;
+}
+.red{
+    width: 300px;
+    height: 300px;
+    
+}
+.rik{
+    
+    
+    width: 400px;
+    display: flex;
+    padding: 20px;
+    width: 20px;
+    
+}
+#we{
+    margin:auto 300px auto 750px ;
+}
+#you{
+    margin:auto 300px auto 0 ;
+}
+.ret{
+    width: 500px;
+}
+/*div{
+    text-align: center;
+    background: red;
+    padding: 25px 0px;
+    border: 6px solid white;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px;
+    
+}
+div:hover{
+    background-image: url(david.jpg);
+    
+}*/

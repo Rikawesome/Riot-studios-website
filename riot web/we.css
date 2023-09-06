@@ -1,0 +1,6 @@
+body{
+    background-image: url("universe.jpg");
+    background-size: cover;
+    border:6px solid blue ;
+    color: red;
+}

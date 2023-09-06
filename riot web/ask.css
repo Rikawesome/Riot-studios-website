@@ -1,0 +1,145 @@
+body{
+    
+text-align: center;
+background: aqua;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+    justify-content: space-around;
+}
+.ehe{
+    
+    border: 5px solid plum;
+    border-radius: 400px;
+    width: 150;
+    height: 150;
+    margin: 5px;
+
+}
+.alt{
+    
+    width: auto;
+    color: white;
+     /*display: flex;
+   flex-direction: column;
+    align-items: center;*/
+}
+h1,h2,h3{
+    text-shadow: 0px 0px 5px black;
+}
+#rat{
+    background: plum;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+#ant{
+    background: plum;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0px;
+}    
+#un{
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(universe.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin: 0px auto;
+}
+.ted{
+    margin-top: 50px;
+}
+.obi{
+    margin-bottom: 0px;
+}
+.re{
+    margin-top: 10px;
+}
+#un:hover{
+    background-image: url(fun-3d-illustration-cartoon-kid-with-vr-helmet.jpg);
+}
+#ur:hover{
+    background-image: url(rik.jpg);
+}
+#ur{
+    
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(universe.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin: 0px auto;
+}
+#see{
+    
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(universe.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin: 0px auto;
+}
+#sat{
+    
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(universe.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    margin: 0px auto;
+}
+#see:hover{
+    background-image: url(chi.jpg);
+}
+#sat:hover{
+    background-image: url(david.jpg);
+}
+#ben{
+    height: 200px;
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(universe.jpg);
+    width: 400px;
+    margin: 0px auto;
+    background-size: cover;
+}
+#ben:hover{
+    background-image: url(riot\ logo.jpg);
+}
+.speed{
+    padding: 20px;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+button{
+    display: none;
+}
